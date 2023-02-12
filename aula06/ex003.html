@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <style>
+        body{
+            background-color: rgba(137, 212, 212, 0.322);
+            color: blueviolet;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color:rgb(87, 101, 224)
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Olá, mundo!</h1>
+    <p>Testando um pouco de comandos !!</p>
+
+    <script>
+        var n1 = window.prompt('Digite um número: ') // prompt recebe string
+        var n2 = window.prompt('Digite outro número: ')
+
+        //var s = Number.parseInt(n1) + Number.parseInt(n2) 
+        var s = Number(n1) + Number(n2) //JS decide se vai converter em int ou float
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+    </script>
+</body>
+</html>
